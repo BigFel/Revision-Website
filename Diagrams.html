@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Different Types of Diagrams</title>
+    <link rel="stylesheet" href="Stylesheet.css">
+    <link href='https://fonts.googleapis.com/css?family=Bubblegum Sans' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <ul class="sidebar">
+        <img src="Images/Study-Panda.png" id="logo" alt="Website Logo">
+        <li><a href="Homepage.html"><strong>Homepage</strong></a></li>
+        <li><a href="Development.html"><strong>Development</strong></a></li>
+        <li><a class="active" href="Diagrams.html"><strong>Diagrams</strong></a></li>
+        <li><a href="Requirement+projectplanning.html"><strong>Reqs. & Planning</strong></a></li>
+        <li><a href="Conversion.html"><strong>Conversion</strong></a></li>
+        <li><a href="Maintenance.html"><strong>Maintenance</strong></a></li>
+        <li><a href="Python.html"><strong>Python</strong></a></li>
+        <li><a href="Testing.html"><strong>Testing</strong></a></li>
+        <li><a href="Data-Types.html"><strong>Data Types</strong></a></li>
+    </ul>
+
+    <div class="main-content">
+        <header id="header">
+            <h1>Different Types of Diagrams</h1>
+            <p style="color: white;">Hope this helps you understand the different types of diagrams used in software development.</p>
+        </header>
+
+        <section id="Information-section">
+        <div class="flex-container">
+        <div class="text-content">
+            <h2>Context Diagrams (Level 0 DFD)</h2>
+            <p>A Context Diagram is the highest level view of a system. It represents the entire system as a single process (a circle) and focuses on how the system interacts with external entities.</p>
+            <p><strong>Purpose:</strong> To define the scope of the system and its boundaries.</p>
+            <p><strong>Key Elements:</strong></p>
+            <ul>
+            <li><strong>System:</strong> A single circle representing the whole application.</li>
+            <li><strong>External Entities:</strong> Objects or people outside the system that interact with it.</li>
+            <li><strong>Data Flows:</strong> Arrows showing how data moves between the system and external entities.</li>
+            </ul>
+            </div>
+        <div class="image-content">
+            <img src="Images/Context.jpg" id="Diagram-img" alt="Context Diagram">
+        </div>
+        </div>
+        </section>
+
+        <section id="Information-section">
+        <div class="flex-container">
+        <div class="text-content">
+           <h2>Data Flow Diagrams (DFD)</h2>
+            <p>Data Flow Diagrams describe the logical path that data takes through a system. Unlike a map with a timetable, a DFD shows the "tracks" (paths) but not the timing or sequence of events.</p>
+            <p><strong>Purpose:</strong> To model how data is transformed by processes and where it is stored.</p>
+            <p><strong>Levels:</strong> They move from a general view (Level 1) to highly detailed views (Level 2, 3, etc.) using a "topdown" design.</p>
+            <p><strong>Key Elements:</strong></p>
+            <ul>
+            <li><strong>Processes:</strong> Circles (labeled with verbs) that transform incoming data into outgoing data.</li>
+            <li><strong>Data Stores:</strong> Open rectangles representing where data sits at rest (files or databases).</li>
+            <li><strong>Data Flows:</strong> Arrows showing the movement of data.</li>
+            </ul>
+            </div>
+        <div class="image-content">
+            <img src="Images/Level0DFD.png" id="Diagram-img" alt="Data Flow Diagram">
+        </div>
+        </div>
+        </section>
+
+        <section id="Information-section">
+        <div class="flex-container">
+        <div class="text-content">
+            <h2>Structure Charts</h2>
+            <p>Structure Charts model the hierarchy and "flow of control" within a program. They represent the architecture of the code itself by showing how subroutines (functions/procedures) call one another.</p>
+            <p><strong>Purpose:</strong> To serve as a template for writing source code and allocating tasks to programmers.</p>
+            <p><strong>Key Elements:</strong></p>
+            <ul>
+            <li><strong>Rectangles:</strong> Represent subroutines or modules.</li>
+            <li><strong>Call Lines:</strong> Lines connecting modules to show which subroutine "calls" another.</li>
+            <li><strong>Data Flows:</strong> Arrows showing how data moves between the system and external entities.</li>
+            <li><strong>Data Couples:</strong> Open circles with arrows showing data being passed.</li>
+            <li><strong>Control Parameters (Flags):</strong> Filled circles showing signals that change the flow of the program (e.g., a "Found" flag).</li>
+            <li><strong>Decisions & Repetitions:</strong> Diamonds represent conditional calls; circular arrows represent loops.</li>
+            </ul>
+            </div>
+        <div class="image-content">
+            <img src="Images/Structure.png" id="Diagram-img" alt="Structure Chart">
+        </div>
+        </div>
+        </section>
+
+        <section id="Information-section">
+        <div class="flex-container">
+        <div class="text-content">
+            <h2>Data Dictionary</h2>
+            <p>A Data Dictionary is a centralised repository (usually a table) that provides metadata about every variable and data structure used in a system.</p>
+            <p><strong>Purpose:</strong> To ensure consistency across a development team and assist in future maintenance.</p>
+            <p><strong>Common Fields:</strong>Variable name, Data type (e.g., Integer, String), Storage size (bytes), Validation rules (e.g., Age must be > 0), and Scope (Local vs. Global).   </p>
+            </div>
+        <div class="image-content">
+            <img src="Images/DDictionary.jpg" id="DDictionary-img" alt="Data Dictionary">
+        </div>
+        </div>
+        </section>
+
+        <section id="Information-section">
+        <div class="flex-container">
+        <div class="text-content">
+           <h2>Storyboards</h2>
+            <p>Storyboards are visual representations of the User Interface (UI). They combine screen designs with a navigation map.</p>
+            <p><strong>Purpose:</strong> To document the user's experience and the navigation paths between different parts of the software.</p>
+            <p><strong>Key Elements:</strong></p>
+            <ul>
+            <li><strong>Screen Designs:</strong> Mockups of what the user sees.</li>
+            <li><strong>Navigation Map:</strong> A diagram of rectangles (screens) and arrows showing how a user moves from one screen to another (e.g., clicking "Home" to leave a "Products" page).</li>
+            </ul>
+            </div>
+        <div class="image-content">
+            <img src="Images/Storyboard.jpeg" id="Diagram-img" alt="Storyboards">
+        </div>
+        </div>
+        </section>
+
+        <section id="Information-section">
+        <div class="flex-container">
+        <div class="text-content">
+            <h2>Decision Trees and Tables</h2>
+            <p>These tools are used to model complex logic and business rules within a system.</p>
+            <p>Decision Trees: Visual representations of decision points and their outcomes.</p>
+            <p>Decision Tables: Tabular representations of conditions and actions in a system.</p>
+            </div>
+        <div class="image-content">
+            <img src="Images/D&T Diagram.png" id="Diagram-img" alt="Decision Trees and Tables">
+        </div>
+        </div>
+        </section>
+
+        <section id="Information-section">
+        <div class="flex-container">
+        <div class="text-content">
+            <h2>Class Diagram</h2>
+            <p>Specific to the Object Oriented Programming (OOP) paradigm, these diagrams describe the structure of a system by showing its classes, their attributes, methods, and the relationships between objects.</p>
+            <p><strong>Purpose:</strong> To provide a static blueprint of the software's structure.</p>
+            <p><strong>Key Elements:</strong></p>
+            <ul>
+                <li><strong>Class Box:</strong> A three-part rectangle containing the Class Name, Attributes (data), and Methods (actions).</li>
+                <li><strong>Attributes:</strong> The variables or data stored within a class (e.g., Price, Username).</li>
+                <li><strong>Methods:</strong> The functions or behaviors a class can perform (e.g., CalculateTotal(), Login()).</li>
+                <li><strong>Relationships:</strong> Lines showing how classes interact or inherit properties from one another.</li>
+            </div>
+        <div class="image-content">
+            <img src="Images/Class.png" id="Class-img" alt="Class Diagram">
+        </div>
+        </div>
+        </section>
+
+        <footer id="footer">
+            <p>External CSS controls layout. Inline CSS styles specific elements.</p>
+        </footer>
+    </div>
+
+</body>
+</html>

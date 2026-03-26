@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consersion Methods</title>
+    <link rel="stylesheet" href="Stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Afacad:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <ul class="sidebar">
+        <img src="Images/Study-Panda.png" id="logo" alt="Website Logo">
+        <li><a href="Homepage.html"><strong>Homepage</strong></a></li>
+        <li><a href="Development.html"><strong>Development</strong></a></li>
+        <li><a href="Diagrams.html"><strong>Diagrams</strong></a></li>
+        <li><a href="Requirement+projectplanning.html"><strong>Reqs. & Planning</strong></a></li>
+        <li><a class="active" href="Conversion.html"><strong>Conversion</strong></a></li>
+        <li><a href="Maintenance.html"><strong>Maintenance</strong></a></li>
+        <li><a href="Python.html"><strong>Python</strong></a></li>
+        <li><a href="Testing.html"><strong>Testing</strong></a></li>
+        <li><a href="Data-Types.html"><strong>Data Types</strong></a></li>
+    </ul>
+
+    <div class="main-content">
+        <header id="header">
+            <h1>Conversion Methods</h1>
+            <p style="color: white;">Hope this helps you understand the different methods for converting from old systems to new ones.</p>
+        </header>
+
+        <section id="Information-section">
+        <div class="flex-container">
+        <div class="text-content">
+            <h2>Direct Conversion</h2>
+            <p>The old system is stopped completely, and the new system is started immediately.</p>
+            <ul>
+                <li><strong>When to use:</strong> For non-critical systems or when the old system is completely broken.</li>
+                <li><strong>Risk:</strong> High. If the new system fails, there is no backup to fall back on.</li>
+                <li><strong>Cost:</strong> Low. You aren't paying to run two systems at once.</li>
+            </ul>
+        </div>
+        <div class="image-content">
+            <img src="Images/Direct.png" id="Conversion-img" alt="Direct Conversion Diagram">
+        </div>
+        </div>
+        </section>      
+
+        <section id="Information-section">
+        <div class="flex-container">
+        <div class="text-content">
+            <h2>Parallel Conversion</h2>
+            <p>The old system and the new system run at the same time for a set period.</p>
+            <ul>
+                <li><strong>When to use:</strong> For critical systems like banking or hospitals where data cannot be lost.</li>
+                <li><strong>Risk:</strong> Very Low. If the new system has a bug, the old system is still there as a backup.</li>
+                <li><strong>Cost:</strong> High. You have to pay for the hardware and staff to run two systems, and data has to be entered into both.</li>
+            </ul>
+            </div>
+        <div class="image-content">
+            <img src="Images/Parallel.png" id="Conversion-img" alt="Parallel Conversion Diagram">
+        </div>
+        </div>
+        </section>
+
+        <section id="Information-section">
+        <div class="flex-container">
+        <div class="text-content">
+            <h2>Phased Conversion</h2>
+            <p>The new system is introduced in stages. One part of the software is installed, then another, until the whole system is replaced.</p>
+            <ul>
+                <li><strong>When to use:</strong> For very large, complex software packages with many different modules.</li>
+                <li><strong>Risk:</strong> Medium. If a problem happens, it only affects one part of the business at a time.</li>
+                <li><strong>Cost:</strong> Medium. It takes a long time to complete the full transition.</li>
+            </ul>
+        </div>
+        <div class="image-content">
+            <img src="Images/Phased.png" id="Conversion-img" alt="Phased Conversion Diagram">
+        </div>
+        </div>
+        </section>
+
+        <section id="Information-section">
+        <div class="flex-container">
+        <div class="text-content">
+            <h2>Pilot Conversion</h2>
+            <p>The new system is installed at one small "test site" (like one branch office or one classroom) before being rolled out to the rest of the company.</p>
+            <ul>
+                <li><strong>When to use:</strong> For organizations with many different locations.</li>
+                <li><strong>Risk:</strong> Low. If the system fails, it only affects the small pilot group.</li>
+                <li><strong>Cost:</strong> Medium. It requires extra support for the pilot group during the trial phase.</li>
+            </ul>
+        </div>
+        <div class="image-content">
+            <img src="Images/Pilot.png" id="Conversion-img" alt="Pilot Conversion Diagram">
+        </div>
+        </div>
+        </section>
+
+        <section id="conversion-diagrams">
+        <div class="conversion-wrapper">
+        <div class="conversion-item">
+            <h3>Direct</h3>
+            <div class="white-container">
+                <img src="Images/Direct-Diagram.png" id="Conversion2-img" alt="Direct Conversion Diagram">
+            </div>
+        </div>
+
+        <div class="conversion-item">
+            <h3>Parallel</h3>
+            <div class="white-container">
+                <img src="Images/Parallel-Diagram.png" id="Conversion2-img" alt="Parallel Conversion Diagram">
+            </div>
+        </div>
+
+        <div class="conversion-item">
+            <h3>Phased</h3>
+            <div class="white-container">
+                <img src="Images/Phased-Diagram.png" id="Conversion2-img"alt="Phased Conversion Diagram">
+            </div>
+        </div>
+
+        <div class="conversion-item">
+            <h3>Pilot</h3>
+            <div class="white-container">
+                <img src="Images/Pilot-Diagram.png" id="Conversion2-img" alt="Pilot Conversion Diagram">
+            </div>
+        </div>
+
+    </div>
+</section>
+
+        <footer id="footer">
+            <p style="color: white;">By Felix Zhou watched by Oliver Long</p>
+        </footer>
+    </div>
+
+</body>
+</html>

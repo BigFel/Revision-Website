@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Maintenance</title>
+    <link rel="stylesheet" href="Stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Afacad:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <ul class="sidebar">
+        <img src="Images/Study-Panda.png" id="logo" alt="Website Logo">
+        <li><a href="Homepage.html"><strong>Homepage</strong></a></li>
+        <li><a href="Development.html"><strong>Development</strong></a></li>
+        <li><a href="Diagrams.html"><strong>Diagrams</strong></a></li>
+        <li><a href="Requirement+projectplanning.html"><strong>Reqs. & Planning</strong></a></li>
+        <li><a href="Conversion.html"><strong>Conversion</strong></a></li>
+        <li><a class="active" href="Maintenance.html"><strong>Maintenance</strong></a></li>
+        <li><a href="Python.html"><strong>Python</strong></a></li>
+        <li><a href="Testing.html"><strong>Testing</strong></a></li>
+        <li><a href="Data-Types.html"><strong>Data Types</strong></a></li>
+    </ul>
+
+    <div class="main-content">
+        <header id="header">
+            <h1>Software Maintenance</h1>
+            <p style="color: white;">Hope this helps you understand the different methods for maintaining existing software systems.</p>
+        </header>
+
+        <section id="Information-section">
+        <div class="flex-container">
+        <div class="text-content">
+            <h2>What is Software Maintenance?</h2>
+            <p>Maintenance is the process of modifying a software system after it has been reached the user. It is often the longest and most expensive part of the software life cycle.</p>
+            <p><strong>Why is it necessary?</strong></p>
+            <ul>
+            <li><strong>Fixing Bugs:</strong> Correcting errors in the source code that weren't found during testing.</li>
+            <li><strong>Changing Requirements:</strong> Modifying the program because the user's needs or the laws have changed.</li>
+            <li><strong>Compatibility:</strong> Ensuring the software works with new hardware, operating systems, or other software.</li>
+            </ul>
+            <p><strong>The Patch: </strong>A patch is a specific piece of code inserted into an existing executable program to fix a problem without needing to reinstall everything.</p>
+        </div>
+        <div class="image-content">
+            <img src="Images/Maintenance.png" id="Req-img" alt="Maintenance Diagram">
+        </div>
+        </div>
+        </section>      
+
+        <section id="Information-section">
+        <div class="flex-container">
+        <div class="text-content">
+            <h2>Managing Changess</h2>
+            <p>Modifying code is a delicate process because a change in one area can cause "side effects" in another.</p>
+            <ul>
+            <li><strong>Side Effects:</strong> When fixing one function accidentally breaks a different part of the program that relies on it.</li>
+            <li><strong>Testing Changes:</strong> Any modification to a routine must be tested just as thoroughly as the original module was tested.</li>
+            <li><strong>Maintainability:</strong> This is a measure of how easily a software solution can be understood, repaired, and evolved over time.</li>
+            </ul>
+        </div>
+        <div class="image-content">
+            <img src="Images/Changes.png" id="Req-img" alt="Changes Diagram">
+        </div>
+        </div>
+        </section>
+
+        <section id="Information-section">
+        <div class="flex-container">
+        <div class="text-content">
+            <h2>Tools for the Maintenance Programmer</h2>
+            <p>Maintenance is rarely done by the same people who originally built the software. They rely on specific tools to understand the code:.</p>
+            <ul>
+            <li><strong>System Models:</strong> Accurate models (like Flowcharts or DFDs) help programmers find the exact section of code that needs to be altered.</li>
+            <li><strong>Data Dictionaries:</strong> These tell the programmer exactly what each variable does and what its data type is, preventing data corruption during an update.</li>
+            <li><strong>Structure Charts:</strong> These show the "hierarchy" of the program, helping the programmer see which other modules might be affected by a change.</li>
+            </ul>
+           </div>
+        <div class="image-content">
+            <img src="Images/Tools.png" id="Req-img" alt="Tools for Maintenance Diagram">
+        </div>
+        </div>
+        </section>
+
+        <section id="Information-section">
+        <div class="flex-container">
+        <div class="text-content">
+            <h2>How to Prioritise Upgrades</h2>
+            <p>When a software has thousands of users, there will be too many requests to fix everything at once. Developers must prioritize based on:</p>
+            <ul>
+            <li><strong>Frequency of Error: </strong> How often are users encountering this issue?</li>
+            <li><strong>Impact of Error:</strong> Is it just a typo, or does the program crash and lose data?</li>
+            <li><strong>Cost and Time:</strong> Is it worth the money and hours required to fix it?</li>
+            </ul>
+           </div>
+        <div class="image-content">
+            <img src="Images/Prioritise.png" id="Req-img" alt="Prioritisation Diagram">
+        </div>
+        </div>
+        </section>
+
+        <footer id="footer">
+            <p>By Felix Zhou watched by Oliver Long</p>
+        </footer>
+    </div>
+
+</body>
+</html>
