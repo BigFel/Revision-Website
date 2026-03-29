@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Control Structures</title>
+    <link rel="stylesheet" href="Stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Afacad:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <ul class="sidebar">
+        <img src="Images/Study-Panda.png" id="logo" alt="Website Logo">
+        <li><a href="index.html"><strong>Homepage</strong></a></li>
+        <li><a href="Development.html"><strong>Development</strong></a></li>
+        <li><a href="Diagrams.html"><strong>Diagrams</strong></a></li>
+        <li><a href="Requirement+projectplanning.html"><strong>Reqs. & Planning</strong></a></li>
+        <li><a href="Conversion.html"><strong>Conversion</strong></a></li>
+        <li><a href="Maintenance.html"><strong>Maintenance</strong></a></li>
+        <li><a href="Python.html"><strong>Python</strong></a></li>
+        <li><a href="Testing.html"><strong>Testing</strong></a></li>
+        <li><a href="Data-Types.html"><strong>Data Types</strong></a></li>
+        <li><a class="active" href="Control.html"><strong>Control</strong></a></li>
+    </ul>
+
+    <div class="main-content">
+        <header id="header">
+            <h1>Control Structures</h1>
+            <p style="color: white;">Hope this helps you understand the different approaches to software development.</p>
+        </header>
+
+        <section id="Information-section">
+        <div class="flex-container">
+        <div class="text-content">
+            <h2>Sequence</h2>
+            <p>Sequence is the simplest control structure. It ensures that every process is performed in a strict, top to bottom order.</p>
+            <p><strong>The Rule:</strong> Each step must be completed before the next one begins.</p>
+            <p><strong>Example:</strong> In a "Get Dressed" algorithm, you must put on your socks before your shoes. If the sequence is wrong, the program fails.</p>
+            </div>
+        <div class="image-content">
+            <img src="Images/Sequence.png" id="Tall-img" alt="Sequence Diagram">
+        </div>
+        </div>
+        </section>
+
+        <section id="Information-section">
+        <div class="flex-container">
+        <div class="text-content">
+            <h2>Selection</h2>
+            <p>Selection allows a program to choose between different paths based on a condition (a "Boolean" True/False check).</p>
+            <p><strong>Purpose:</strong> The control structure that allows decisions to be made between different alternativepaths.</p>
+            <p><strong>Binary Selection (IF-THEN-ELSE):</strong> Choosing between exactly two alternatives.</p>
+                <ul>
+                    <li><strong>Example:</strong> Age >= 18 THEN "Can Vote" ELSE "Cannot Vote".</li>
+                </ul>
+            <p><strong>Multiway Selection (CaseWhere):</strong> Choosing from many different paths.</p>
+                <ul>
+                    <li><strong>Example:</strong> Assigning grades (A, B, C, D, or F) based on a student's score.</li>
+                </ul>
+            </div>
+        <div class="image-content">
+            <img src="Images/Binary.png" id="Wide-img" alt="Binary Selection Diagram">
+            <img src="Images/Multiway.png" id="Wide-img" alt="Multiway Selection Diagram">
+        </div>
+        </div>
+        </section>
+
+        <section id="Information-section">
+        <div class="flex-container">
+        <div class="text-content">
+            <h2>Iteration</h2>
+            <p>Iteration is the repetition of a sequence of steps. This is what makes computers powerful, they can repeat tasks at incredible speeds.</p>
+            <ul>
+                <li><strong>Pre-Test Loop (WHILE):</strong> The condition is checked at the start. If the condition is false, the loop might never run (0 times).</li>
+                <li><strong>Post-Test Loop (REPEAT-UNTIL):</strong> The condition is checked at the end. The loop is guaranteed to run at least once.</li>
+                <li><strong>Counting Loop (FOR):</strong> Used when you know exactly how many times you want the loop to repeat.</li>
+            </ul>
+   
+           </div>
+        <div class="image-content">
+            <img src="Images/Iteration.png" id="Tall-img" alt="Iteration Diagram">
+        </div>
+        </div>
+        </section>
+
+        <section id="conversion-diagrams">
+        <div class="boxes-wrapper">
+        <div class="boxes-item">
+            <h3>Pre-Test</h3>
+            <div class="white-container">
+                <img style="height: 400px; width: 250px;" src="Images/Pre-Test.png" alt="Pre-Test Conversion Diagram">
+            </div>
+        </div>
+
+        <div class="boxes-item">
+            <h3>Post-Test</h3>
+            <div class="white-container">
+                <img src="Images/Post-test.png" id="Very-Tall-img" alt="Post-test Conversion Diagram">
+            </div>
+        </div>
+        </div>
+        </section>
+
+        <footer id="footer">
+            <p>By Felix Zhou watched my Oliver Long</p>
+        </footer>
+    </div>
+
+</body>
+</html>
